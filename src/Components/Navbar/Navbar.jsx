@@ -18,8 +18,8 @@ const Navbar = () => {
       <li onClick={()=>{setMenu("womens")}}><link style={{ textDecoration: 'none' }}  to='/womens'>Women<link>{menu==="womens"?<hr/>:<></>}</li>
       <li onClick={()=>{setMenu("kids")}}><link style={{ textDecoration: 'none' }}  to='/kids'>Kids</link>{menu==="kids"?<hr/>:<></>}</li>
       <div className="nav-login-cart">
-        <link to='/login'><button>Login</button></ink>
-        <link to='/cart'><img src={cart_icon} alt="" /></ink>
+        <link to='/login'><button>Login</button></link>
+        <link to='/cart'><img src={cart_icon} alt="" /></link>
         <div className="nav-cart-count">0</div>
         </div>
       </div>
